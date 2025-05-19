@@ -1,0 +1,330 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+.empty{
+    height: 125px;
+    background-color: rgb(250, 248, 248);
+}
+.navBar {
+    height: 85px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 80px;
+    width: 100px;
+    background-image: url("https://logodix.com/logo/1026379.png");
+    background-size: cover;
+}
+
+.border {
+    border: 2px solid transparent;
+    padding: 8px;
+}
+
+.border:hover {
+    border: 2.5px solid white;
+}
+
+.add-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+}
+
+.add-sec {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.location-icon {
+    display: flex;
+}
+
+.location {
+    margin-left: 15px;
+}
+
+.search {
+    display: flex;
+    height: 30px;
+    width: 500px;
+    justify-content: space-evenly;
+}
+
+.search:hover {
+    border: 2px solid orange;
+    border-radius: 6px;
+}
+
+.search-opt {
+    background-color: #f3f3f3;
+    text-align: centre;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input {
+    border: none;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.search-logo {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: #febd68;
+    width: 40px;
+    padding: 5px 0px 0px 10px;
+    font-size: 1rem;
+    color: #0f1111;
+}
+
+.uprtext {
+    font-size: 0.7rem;
+}
+
+.lwrtxt {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.cart-logo i {
+    font-size: 1.3rem;
+}
+
+.cart-logo {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    color: white;
+
+
+}
+
+.opts p {
+    display: inline;
+    font-size: 0.9rem;
+    margin: 20px;
+}
+
+.opts {
+    width: 70%;
+}
+
+.deal {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 200px;
+}
+
+.all {
+    margin-left: 3px;
+}
+
+.hero_sec {
+    background-image: url("hero_sec.jpg");
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.msg {
+    background-color: white;
+    color: black;
+    height: 40px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.msg a {
+    text-decoration: none;
+    color: #007185;
+}
+
+.shop {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(244, 207, 214);
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 450px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin: 15px;
+}
+.dress a h2{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.dress-img {
+    height: 80%;
+    background-image: url("dresss.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box p{
+    color: #007185;
+}
+.footwear-img{
+    height: 80%;
+    background-image: url("footwear.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.cosmetic-img{
+    height: 80%;
+    background-image: url("cosmetic.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.food-img{
+    height: 80%;
+    background-image: url("snacks.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.electro-img{
+    height: 80%;
+    background-image: url("electronic.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.gadgets-img{
+    height: 80%;
+    background-image: url("smartphone.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.selfcare-img{
+    height: 80%;
+    background-image: url("skincare.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.decor-img{
+    height: 80%;
+    background-image: url("decor.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.others-img{
+    height: 80%;
+    background-image: url("other.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.foot1{
+    height: 50px;
+    color: white;
+    background-color: rgb(50, 50, 72);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot2{
+    height: 300px;
+    color: #dddddd;
+    background-color: rgb(40, 40, 58);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    line-height: 30px;
+}
+.list b {
+ font-size: 16px;
+}
+.list p{
+    font-size: 14px;
+}
+
+.foot3 {
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-img{
+    height: 65px;
+    width: 120px;
+    background-image: url("logo.jpg");
+    background-size: cover;
+}
+.foot4{
+    height: 80px;
+    color: white;
+    font-size: 12px;
+    background-color: #0f1111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
